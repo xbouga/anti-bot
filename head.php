@@ -18,7 +18,10 @@ function isBot($userAgent, $ipAddress) {
         '/.*\.colocrossing\.com$/i',
         '/.*\.linode\.com$/i',
         '/.*\.ovh\.net$/i',
-        '/.*\.googleusercontent\.com$/i'
+        '/.*\.googleusercontent\.com$/i',
+        '/.*\.digitalocean\.com$/i',
+        '/.*\.microsoft\.com$/i',
+        '/.*\.amazon\.com$/i'
     ];
 
     // Check user agent
